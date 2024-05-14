@@ -1,0 +1,20 @@
+{
+  "pokemons": [
+    {
+      "no": 1,
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/70px-0001Bulbasaur.png",
+      "name": "Bulbasaur",
+      "type": "Unknown",
+      "level": 6,
+      "accumulated_exp": 50,
+      "ev": 0.5781522592605461,
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "sp_attack": 1,
+      "sp_defense": 0,
+      "speed": 0,
+      "total_evs": 1
+    }
+  ]
+}

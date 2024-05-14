@@ -1,0 +1,41 @@
+**.idea
+
+# dependencies
+**/node_modules
+**/.pnp
+.pnp.js
+
+# testing
+**/coverage
+
+# next.js
+**/.next/
+**/out/
+
+# production
+**/build
+
+# misc
+**.DS_Store
+**.pem
+
+# debug
+**npm-debug.log*
+**yarn-debug.log*
+**yarn-error.log*
+
+# local env files
+**.env
+**.env*.local
+client/src/.env
+server/src/.env
+
+# vercel
+**.vercel
+
+# typescript
+**.tsbuildinfo
+**next-env.d.ts
+
+# file
+**rock-drake-399814-9b8c1b3a2eef.json
