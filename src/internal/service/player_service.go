@@ -45,7 +45,6 @@ func (ps *PlayerService) loadPlayerList() {
 		}
 		ps.Players = append(ps.Players, player)
 	}
-	fmt.Println(ps)
 }
 
 func (ps *PlayerService) LoadPlayerList(filename string) map[string][]*model.CapturedPokemon {
@@ -63,6 +62,7 @@ func (ps *PlayerService) LoadPlayerList(filename string) map[string][]*model.Cap
 
 	return playerPokemonMap
 }
+
 func (ps *PlayerService) CreatePlayer(name string, initialPosition model.Position) *model.Player {
 	player := &model.Player{
 		Name:     name,

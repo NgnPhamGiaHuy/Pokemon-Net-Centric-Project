@@ -1,32 +1,53 @@
 package controller
 
 import (
+	"encoding/json"
 	"fmt"
 	"math/rand"
+	"net/http"
 	"pokecat_pokebat/internal/model"
 	"pokecat_pokebat/internal/service"
 )
 
-var elementalMultiplier = map[string]float64{
-	"Normal": 1.0,
-	"Fire":   1.5,
-	"Water":  0.8,
-	// Add more types as needed
-}
-
 type BattleController struct {
-	BattleService *service.BattleService
-	Logs          []string
+	Logs []string
 }
 
 func NewBattleController() *BattleController {
 	return &BattleController{
-		BattleService: service.NewBattleService(),
-		Logs:          []string{},
+		Logs: []string{},
 	}
 }
 
-func (bc *BattleController) StartBattle(player1, player2 *model.Player) *model.Player {
+func (bc *BattleController) StartBattle(w http.ResponseWriter, r *http.Request, playerService *service.PlayerService) {
+	var request struct {
+		Player1          string   `json:"player1"`
+		Player2          string   `json:"player2"`
+		SelectedPokemons []string `json:"selectedPokemons"`
+	}
+
+	err := json.NewDecoder(r.Body).Decode(&request)
+	if err != nil {
+		http.Error(w, "Invalid request", http.StatusBadRequest)
+		return
+	}
+
+	player1 := playerService.GetPlayerByName(request.Player1)
+	player2 := playerService.GetPlayerByName(request.Player2)
+
+	if player1 == nil || player2 == nil {
+		http.Error(w, "Both players must be registered", http.StatusBadRequest)
+		return
+	}
+
+	player1.Pokemons = bc.selectPokemons(player1, request.SelectedPokemons)
+	player2.Pokemons = bc.selectRandomPokemons(player2)
+
+	if len(player1.Pokemons) < 3 || len(player2.Pokemons) < 3 {
+		http.Error(w, "Both players must have at least 3 Pokémon", http.StatusBadRequest)
+		return
+	}
+
 	bc.LogBattleStart(player1, player2)
 
 	player1.ActivePokemon = player1.Pokemons[0]
@@ -35,19 +56,60 @@ func (bc *BattleController) StartBattle(player1, player2 *model.Player) *model.P
 	firstPlayer, secondPlayer := determineFirstPlayer(player1, player2)
 	bc.LogTurnOrder(firstPlayer, secondPlayer)
 
+	winner := bc.executeBattle(firstPlayer, secondPlayer)
+	bc.LogBattleEnd(winner, player1, player2)
+
+	opponentPokemons := []string{}
+	for _, p := range player2.Pokemons {
+		opponentPokemons = append(opponentPokemons, p.Name)
+	}
+
+	response := struct {
+		Winner           string   `json:"winner"`
+		Logs             []string `json:"logs"`
+		OpponentPokemons []string `json:"opponent_pokemons"`
+	}{
+		Winner:           winner.Name,
+		Logs:             bc.Logs,
+		OpponentPokemons: opponentPokemons,
+	}
+	jsonResponse, _ := json.Marshal(response)
+	w.Write(jsonResponse)
+}
+
+func (bc *BattleController) selectPokemons(player *model.Player, selectedPokemons []string) []*model.CapturedPokemon {
+	selected := []*model.CapturedPokemon{}
+	for _, pokemonName := range selectedPokemons {
+		for _, pokemon := range player.Pokemons {
+			if pokemon.Name == pokemonName {
+				selected = append(selected, pokemon)
+			}
+		}
+	}
+	return selected
+}
+
+func (bc *BattleController) selectRandomPokemons(player *model.Player) []*model.CapturedPokemon {
+	rand.Shuffle(len(player.Pokemons), func(i, j int) {
+		player.Pokemons[i], player.Pokemons[j] = player.Pokemons[j], player.Pokemons[i]
+	})
+	if len(player.Pokemons) > 3 {
+		return player.Pokemons[:3]
+	}
+	return player.Pokemons
+}
+
+func (bc *BattleController) executeBattle(firstPlayer, secondPlayer *model.Player) *model.Player {
 	for {
 		if firstPlayer.ActivePokemon != nil {
 			bc.performTurn(firstPlayer, secondPlayer)
 			if bc.isBattleOver(firstPlayer, secondPlayer) {
-				bc.LogBattleEnd(firstPlayer, secondPlayer)
 				return firstPlayer
 			}
 		}
-
 		if secondPlayer.ActivePokemon != nil {
 			bc.performTurn(secondPlayer, firstPlayer)
-			if bc.isBattleOver(secondPlayer, firstPlayer) {
-				bc.LogBattleEnd(secondPlayer, firstPlayer)
+			if bc.isBattleOver(firstPlayer, secondPlayer) {
 				return secondPlayer
 			}
 		}
@@ -68,26 +130,25 @@ func determineFirstPlayer(player1, player2 *model.Player) (firstPlayer, secondPl
 }
 
 func (bc *BattleController) performTurn(attacker, defender *model.Player) {
-	if attacker.ActivePokemon.HP <= 0 {
-		attacker.ActivePokemon = bc.chooseActivePokemon(attacker)
-		if attacker.ActivePokemon != nil {
-			bc.LogSwitch(attacker)
-		}
-		return
-	}
-
-	bc.performAttack(attacker, defender)
+	damage := bc.calculateDamage(attacker.ActivePokemon, defender.ActivePokemon)
+	bc.LogAttack(attacker, defender, damage, "normal attack")
+	defender.ActivePokemon.HP -= damage
 
 	if defender.ActivePokemon.HP <= 0 {
 		bc.LogFaint(defender)
-		if bc.isBattleOver(attacker, defender) {
-			return
-		}
 		defender.ActivePokemon = bc.chooseActivePokemon(defender)
 		if defender.ActivePokemon != nil {
 			bc.LogSwitch(defender)
 		}
 	}
+}
+
+func (bc *BattleController) calculateDamage(attacker, defender *model.CapturedPokemon) int {
+	damage := attacker.Attack - defender.Defense
+	if damage < 0 {
+		return 0
+	}
+	return damage
 }
 
 func (bc *BattleController) performAttack(attacker, defender *model.Player) {
@@ -113,23 +174,23 @@ func (bc *BattleController) performAttack(attacker, defender *model.Player) {
 }
 
 func calculateNormalDamage(attacker, defender *model.CapturedPokemon) int {
-	return attacker.Attack - defender.Defense
+	damage := attacker.Attack - defender.Defense
+	return damage
 }
 
 func calculateSpecialDamage(attacker, defender *model.CapturedPokemon) int {
-	maxMultiplier := 1.0
-	for _, atkType := range attacker.Type {
-		if multiplier, exists := elementalMultiplier[atkType]; exists {
-			if multiplier > maxMultiplier {
-				maxMultiplier = multiplier
-			}
-		}
-	}
-	damage := int(float64(attacker.SpAttack)*maxMultiplier - float64(defender.SpDefense))
-	if damage < 0 {
-		damage = 0
-	}
+	damage := attacker.SpAttack - defender.SpDefense
 	return damage
+}
+
+func GetPlayerPokemons(w http.ResponseWriter, r *http.Request, playerService *service.PlayerService) {
+	playerName := r.URL.Query().Get("name")
+	player := playerService.GetPlayerByName(playerName)
+	if player == nil {
+		http.Error(w, "Player not found", http.StatusNotFound)
+		return
+	}
+	json.NewEncoder(w).Encode(player.Pokemons)
 }
 
 func (bc *BattleController) chooseActivePokemon(player *model.Player) *model.CapturedPokemon {
@@ -141,8 +202,12 @@ func (bc *BattleController) chooseActivePokemon(player *model.Player) *model.Cap
 	return nil
 }
 
-func (bc *BattleController) isBattleOver(player, opponent *model.Player) bool {
-	for _, pokemon := range opponent.Pokemons {
+func (bc *BattleController) isBattleOver(player1, player2 *model.Player) bool {
+	return bc.areAllPokemonsFainted(player1) || bc.areAllPokemonsFainted(player2)
+}
+
+func (bc *BattleController) areAllPokemonsFainted(player *model.Player) bool {
+	for _, pokemon := range player.Pokemons {
 		if pokemon.HP > 0 {
 			return false
 		}
@@ -171,10 +236,12 @@ func (bc *BattleController) LogFaint(player *model.Player) {
 	bc.Logs = append(bc.Logs, fmt.Sprintf("%s's %s has fainted", player.Name, player.ActivePokemon.Name))
 }
 
-func (bc *BattleController) LogBattleEnd(winner, loser *model.Player) {
-	bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won against %s", winner.Name, loser.Name))
-	fmt.Println("Battle Log:")
-	for _, log := range bc.Logs {
-		fmt.Println(log)
+func (bc *BattleController) LogBattleEnd(winner, player1, player2 *model.Player) {
+	var loserName string
+	if winner.Name == player1.Name {
+		loserName = player2.Name
+	} else {
+		loserName = player1.Name
 	}
+	bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won against %s", winner.Name, loserName))
 }
