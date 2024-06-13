@@ -25,6 +25,22 @@ func NewWorldService(width, height int) *WorldService {
 	}
 }
 
+func (ws *WorldService) MinX() int {
+	return 0
+}
+
+func (ws *WorldService) MaxX() int {
+	return ws.World.Width - 1
+}
+
+func (ws *WorldService) MinY() int {
+	return 0
+}
+
+func (ws *WorldService) MaxY() int {
+	return ws.World.Height - 1
+}
+
 func (ws *WorldService) AddPlayer(player *model.Player) {
 	// Add player to the world (e.g., to a players map or list)
 }

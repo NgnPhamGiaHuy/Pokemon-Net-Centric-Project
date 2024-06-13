@@ -1,448 +1,4276 @@
 {
+  "Alice": [
+    {
+      "no": 47,
+      "image": "",
+      "name": "Parasect",
+      "exp": 0,
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "sp_attack": 0,
+      "sp_defense": 0,
+      "speed": 0,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "bug"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    }
+  ],
   "Bob": [
     {
-      "no": 49,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/70px-0049Venomoth.png",
-      "name": "Venomoth",
-      "type": "Unknown",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.6418424555576951,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 1,
-      "sp_defense": 0,
-      "speed": 1,
-      "total_evs": 2
-    },
-    {
-      "no": 795,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/8/85/0795Pheromosa.png/70px-0795Pheromosa.png",
-      "name": "Pheromosa",
-      "type": "Unknown",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.9950799218236472,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 3,
-      "total_evs": 3
-    },
-    {
-      "no": 952,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/f/f7/0952Scovillain.png/70px-0952Scovillain.png",
-      "name": "Scovillain",
-      "type": "Unknown",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5277466605454739,
-      "hp": 0,
-      "attack": 2,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
-    },
-    {
-      "no": 678,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/9/92/0678Meowstic.png/70px-0678Meowstic.png",
-      "name": "Meowstic",
-      "type": "",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0,
+      "no": 117,
+      "image": "",
+      "name": "Seadra",
+      "exp": 0,
       "hp": 0,
       "attack": 0,
       "defense": 0,
       "sp_attack": 0,
       "sp_defense": 0,
       "speed": 0,
-      "total_evs": 0
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ],
   "Charlie": [
     {
-      "no": 927,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/8/81/0927Dachsbun.png/70px-0927Dachsbun.png",
-      "name": "Dachsbun",
-      "type": "Unknown",
+      "no": 66,
+      "image": "",
+      "name": "Machop",
+      "exp": 0,
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "sp_attack": 35,
+      "sp_defense": 35,
+      "speed": 35,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.9644069260719822,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 2,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9410658549228698",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 818,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/d/dc/0818Inteleon.png/70px-0818Inteleon.png",
-      "name": "Inteleon",
-      "type": "Unknown",
+      "no": 6,
+      "image": "",
+      "name": "Charizard",
+      "exp": 0,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "sp_attack": 109,
+      "sp_defense": 85,
+      "speed": 100,
+      "total_evs": 0,
+      "type": [
+        "fire",
+        "flying"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5359045272458182,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 3,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.7945946384354524",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 829,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/5/55/0829Gossifleur.png/70px-0829Gossifleur.png",
-      "name": "Gossifleur",
-      "type": "Unknown",
+      "no": 76,
+      "image": "",
+      "name": "Golem",
+      "exp": 0,
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "sp_attack": 55,
+      "sp_defense": 65,
+      "speed": 45,
+      "total_evs": 0,
+      "type": [
+        "rock",
+        "ground"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.8228859096927892,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 1,
-      "speed": 0,
-      "total_evs": 1
-    }
-  ],
-  "Emma": [
-    {
-      "no": 950,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/0950Klawf.png/70px-0950Klawf.png",
-      "name": "Klawf",
-      "type": "Unknown",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.8407050002118213,
-      "hp": 0,
-      "attack": 0,
-      "defense": 2,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9603746760376868",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 983,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/0983Kingambit.png/70px-0983Kingambit.png",
-      "name": "Kingambit",
-      "type": "Unknown",
+      "no": 62,
+      "image": "",
+      "name": "Poliwrath",
+      "exp": 0,
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "sp_attack": 70,
+      "sp_defense": 90,
+      "speed": 70,
+      "total_evs": 0,
+      "type": [
+        "water",
+        "fighting"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.7605704077054409,
-      "hp": 0,
-      "attack": 3,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.606370947967766",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 428,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/4/4b/0428Lopunny.png/70px-0428Lopunny.png",
-      "name": "Lopunny",
-      "type": "Unknown",
+      "no": 15,
+      "image": "",
+      "name": "Beedrill",
+      "exp": 0,
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "sp_attack": 45,
+      "sp_defense": 80,
+      "speed": 75,
+      "total_evs": 0,
+      "type": [
+        "bug",
+        "poison"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.6861027040518671,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 2,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9975527423516124",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 4,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/70px-0004Charmander.png",
-      "name": "Charmander",
-      "type": "Unknown",
+      "no": 50,
+      "image": "",
+      "name": "Diglett",
+      "exp": 0,
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "sp_attack": 35,
+      "sp_defense": 45,
+      "speed": 95,
+      "total_evs": 0,
+      "type": [
+        "ground"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5182551929405524,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 1,
-      "total_evs": 1
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8803360892814068",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 496,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/6/62/0496Servine.png/70px-0496Servine.png",
-      "name": "Servine",
-      "type": "Unknown",
+      "no": 42,
+      "image": "",
+      "name": "Golbat",
+      "exp": 0,
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 65,
+      "sp_defense": 75,
+      "speed": 90,
+      "total_evs": 0,
+      "type": [
+        "poison",
+        "flying"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5604426131641963,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 2,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.931449246956926",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 117,
+      "image": "",
+      "name": "Seadra",
+      "exp": 0,
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "sp_attack": 95,
+      "sp_defense": 45,
+      "speed": 85,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9080517341372539",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 1,
+      "image": "",
+      "name": "Bulbasaur",
+      "exp": 0,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 45,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "poison"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.6450616204711501",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 5,
+      "image": "",
+      "name": "Charmeleon",
+      "exp": 0,
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "sp_attack": 80,
+      "sp_defense": 65,
+      "speed": 80,
+      "total_evs": 0,
+      "type": [
+        "fire"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8152803204966501",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ],
   "Frank": [
     {
-      "no": 238,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/c/c9/0238Smoochum.png/70px-0238Smoochum.png",
-      "name": "Smoochum",
-      "type": "Unknown",
+      "no": 36,
+      "image": "",
+      "name": "Clefable",
+      "exp": 0,
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "sp_attack": 95,
+      "sp_defense": 90,
+      "speed": 60,
+      "total_evs": 0,
+      "type": [
+        "fairy"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5114447007955979,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 1,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 1
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8947508157349787",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 61,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/0061Poliwhirl.png/70px-0061Poliwhirl.png",
-      "name": "Poliwhirl",
-      "type": "Unknown",
+      "no": 54,
+      "image": "",
+      "name": "Psyduck",
+      "exp": 0,
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "sp_attack": 65,
+      "sp_defense": 50,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.6786337781274135,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 2,
-      "total_evs": 2
-    },
-    {
-      "no": 1018,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/c/c4/1018Archaludon.png/70px-1018Archaludon.png",
-      "name": "Archaludon",
-      "type": "Unknown",
-      "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.8629113908118828,
-      "hp": 0,
-      "attack": 0,
-      "defense": 3,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5448850832023726",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ],
   "Grace": [
     {
-      "no": 416,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/0416Vespiquen.png/70px-0416Vespiquen.png",
-      "name": "Vespiquen",
-      "type": "Unknown",
+      "no": 41,
+      "image": "",
+      "name": "Zubat",
+      "exp": 0,
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "sp_attack": 30,
+      "sp_defense": 40,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "poison",
+        "flying"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.564560062658313,
-      "hp": 0,
-      "attack": 0,
-      "defense": 1,
-      "sp_attack": 0,
-      "sp_defense": 1,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8649248898367401",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 56,
+      "image": "",
+      "name": "Mankey",
+      "exp": 0,
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "sp_attack": 35,
+      "sp_defense": 45,
+      "speed": 70,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9128941165158856",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 63,
+      "image": "",
+      "name": "Abra",
+      "exp": 0,
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "sp_attack": 105,
+      "sp_defense": 55,
+      "speed": 90,
+      "total_evs": 0,
+      "type": [
+        "psychic"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9533092862431477",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 79,
+      "image": "",
+      "name": "Slowpoke",
+      "exp": 0,
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "sp_attack": 40,
+      "sp_defense": 40,
+      "speed": 15,
+      "total_evs": 0,
+      "type": [
+        "psychic",
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.951174537550988",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 87,
+      "image": "",
+      "name": "Dewgong",
+      "exp": 0,
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "sp_attack": 70,
+      "sp_defense": 95,
+      "speed": 70,
+      "total_evs": 0,
+      "type": [
+        "ice",
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.6457382507588535",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 81,
+      "image": "",
+      "name": "Magnemite",
+      "exp": 0,
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "sp_attack": 95,
+      "sp_defense": 55,
+      "speed": 45,
+      "total_evs": 0,
+      "type": [
+        "electric",
+        "steel"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5121136551787294",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 15,
+      "image": "",
+      "name": "Beedrill",
+      "exp": 0,
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "sp_attack": 45,
+      "sp_defense": 80,
+      "speed": 75,
+      "total_evs": 0,
+      "type": [
+        "bug",
+        "poison"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8245584947728333",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 78,
+      "image": "",
+      "name": "Rapidash",
+      "exp": 0,
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "sp_attack": 80,
+      "sp_defense": 80,
+      "speed": 105,
+      "total_evs": 0,
+      "type": [
+        "fire"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9487431402226132",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 68,
+      "image": "",
+      "name": "Machamp",
+      "exp": 0,
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "sp_attack": 65,
+      "sp_defense": 85,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.7931535936128794",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ],
+  "Henry": [
+    {
+      "no": 67,
+      "image": "",
+      "name": "Machoke",
+      "exp": 0,
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "sp_attack": 50,
+      "sp_defense": 60,
+      "speed": 45,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.6963651403808785",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 33,
+      "image": "",
+      "name": "Nidorino",
+      "exp": 0,
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "sp_attack": 55,
+      "sp_defense": 55,
+      "speed": 65,
+      "total_evs": 0,
+      "type": [
+        "poison"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8259536934831564",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 75,
+      "image": "",
+      "name": "Graveler",
+      "exp": 0,
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "sp_attack": 45,
+      "sp_defense": 45,
+      "speed": 35,
+      "total_evs": 0,
+      "type": [
+        "rock",
+        "ground"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8238200218693659",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 70,
+      "image": "",
+      "name": "Weepinbell",
+      "exp": 0,
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "poison"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.7123068134754601",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 66,
+      "image": "",
+      "name": "Machop",
+      "exp": 0,
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "sp_attack": 35,
+      "sp_defense": 35,
+      "speed": 35,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5072097054245036",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 98,
+      "image": "",
+      "name": "Krabby",
+      "exp": 0,
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "sp_attack": 25,
+      "sp_defense": 25,
+      "speed": 50,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "0",
+      "gender_ratio": "50% ♂ 50% ♀",
+      "egg_groups": [
+        "Water 3"
+      ],
+      "hatch_steps": 5100,
+      "abilities": [
+        "Hyper-cutter",
+        "Shell-armor",
+        "Sheer-force"
+      ],
+      "evs": "0",
+      "strengths": [
+        {
+          "type": "steel",
+          "multiplier": "0.5"
+        },
+        {
+          "type": "fire",
+          "multiplier": "0.5"
+        },
+        {
+          "type": "water",
+          "multiplier": "0.5"
+        },
+        {
+          "type": "ice",
+          "multiplier": "0.5"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "multiplier": "2"
+        },
+        {
+          "type": "electric",
+          "multiplier": "2"
+        }
+      ],
+      "evolutions": [
+        {
+          "from": "Krabby",
+          "to": "Kingler",
+          "level": "28"
+        }
+      ],
+      "moves": {
+        "natural": [
+          {
+            "name": "Mud sport",
+            "type": "ground",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends."
+          },
+          {
+            "name": "Bubble",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Leer",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Lowers the target's Defense by one stage."
+          },
+          {
+            "name": "Vicegrip",
+            "type": "normal",
+            "class": "",
+            "power": "55",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Metal claw",
+            "type": "steel",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "35",
+            "description": "Inflicts regular damage. Has a 10% chance to raise the user's Attack one stage."
+          },
+          {
+            "name": "Mud shot",
+            "type": "ground",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Guillotine",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "30%",
+            "pp": "5",
+            "description": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock-on, mind-reader, and no-guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect."
+          },
+          {
+            "name": "Stomp",
+            "type": "normal",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field."
+          },
+          {
+            "name": "Protect",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nlock-on, mind-reader, and no-guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn-drill, and sheer-cold); those are always blocked by this move.\n\nthunder during rain-dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom-desire and future-sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish-song\n* shadow-force\n* Moves that merely copy the user, such as transform or psych-up\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Crabhammer",
+            "type": "water",
+            "class": "",
+            "power": "100",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+          },
+          {
+            "name": "Brine",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power."
+          },
+          {
+            "name": "Harden",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Defense by one stage."
+          },
+          {
+            "name": "Attract",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends."
+          },
+          {
+            "name": "Bide",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Blizzard",
+            "type": "ice",
+            "class": "",
+            "power": "110",
+            "accuracy": "70%",
+            "pp": "5",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+          },
+          {
+            "name": "Body slam",
+            "type": "normal",
+            "class": "",
+            "power": "85",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+          },
+          {
+            "name": "Brick break",
+            "type": "fighting",
+            "class": "",
+            "power": "75",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Destroys any light-screen or reflect on the target's side of the field, then inflicts regular damage.  The barriers are destroyed even if this move has no effect."
+          },
+          {
+            "name": "Bubblebeam",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Captivate",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail."
+          },
+          {
+            "name": "Curse",
+            "type": "ghost",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton-pass.\n\nThis move cannot be copied by mirror-move."
+          },
+          {
+            "name": "Cut",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Dive",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Double edge",
+            "type": "normal",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Double team",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's evasion by one stage."
+          },
+          {
+            "name": "Endure",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Facade",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+          },
+          {
+            "name": "False swipe",
+            "type": "normal",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "40",
+            "description": "Inflicts regular damage.  Will not reduce the target's HP below 1."
+          },
+          {
+            "name": "Fling",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky-hold.\n\nIf the user is under the effect of embargo, this move will fail."
+          },
+          {
+            "name": "Frustration",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Fury cutter",
+            "type": "bug",
+            "class": "",
+            "power": "40",
+            "accuracy": "95%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets."
+          },
+          {
+            "name": "Hail",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy-rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow-cloak are exempt from this effect's damage."
+          },
+          {
+            "name": "Hidden power",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's IV.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IV.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+          },
+          {
+            "name": "Hone claws",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Attack and accuracy by one stage."
+          },
+          {
+            "name": "Ice beam",
+            "type": "ice",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+          },
+          {
+            "name": "Icy wind",
+            "type": "ice",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Mimic",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror-move, nor selected by assist or metronome, nor forced by encore."
+          },
+          {
+            "name": "Mud slap",
+            "type": "ground",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+          },
+          {
+            "name": "Natural gift",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+          },
+          {
+            "name": "Rage",
+            "type": "normal",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+          },
+          {
+            "name": "Rain dance",
+            "type": "water",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "5",
+            "description": "Changes the weather to rain for five turns, during which water moves inflict 50% extra damage, and fire moves inflict half damage.\n\nIf the user is holding damp-rock, this effect lasts for eight turns.\n\nthunder has 100% accuracy.  If the target has used detect or protect, thunder has a (100 - accuracy)% chance to break through the protection.\n\nsolar-beam has half power.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with swift-swim have doubled original Speed.\n\nPokémon with forecast become water.\n\nPokémon with dry-skin heal 1/8 max HP, Pokémon with hydration are cured of major status effects-effects, and Pokémon with rain-dish heal 1/16 max HP at the end of each turn."
+          },
+          {
+            "name": "Rest",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect-effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early-bird.\n\nThis move fail if the Pokémon cannot fall asleep due to uproar, insomnia, or vital-spirit.  It also fails if the Pokémon is at full health or is already asleep."
+          },
+          {
+            "name": "Return",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Rock slide",
+            "type": "rock",
+            "class": "",
+            "power": "75",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Rock smash",
+            "type": "fighting",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Rock tomb",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Round",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual."
+          },
+          {
+            "name": "Scald",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to burn the target."
+          },
+          {
+            "name": "Secret power",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyze target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyze target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyze target\nNeon           | Paralyze target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+          },
+          {
+            "name": "Sleep talk",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Only usable if the user is sleep.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus-punch, me-first, metronome, mirror-move, shadow-force, skull-bash, sky-attack, sky-drop, sleep-talk, solar-beam, razor-wind, or uproar.\n\nIf the selected move requires a recharge turn—i.e., one of blast-burn, frenzy-plant, giga-impact, hydro-cannon, hyper-beam, roar-of-time, or rock-wrecker—and the user is still sleep next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror-move, nor selected by assist, metronome, or sleep-talk."
+          },
+          {
+            "name": "Snore",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Only usable if the user is sleep.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Strength",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Substitute",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effect-effects, confusion, and flinch.  The effects of smelling-salts and wake-up-slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect-effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap-berry.  magic-coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream-eater, embargo, flatter, gastro-acid, grudge, heal-block, leech-seed, lock-on, mean-look, mimic, mind-reader, nightmare, pain-split, psycho-shift, spider-web, sketch, swagger, switcheroo, trick, worry-seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt-absorb absorbing thunder-wave), such moves will not be blocked.\n\nlife-orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic-spikes.\n\nThe doll is passed on by baton-pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal."
+          },
+          {
+            "name": "Surf",
+            "type": "water",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "Swagger",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "15",
+            "description": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+          },
+          {
+            "name": "Swords dance",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Attack by two stages."
+          },
+          {
+            "name": "Take down",
+            "type": "normal",
+            "class": "",
+            "power": "90",
+            "accuracy": "85%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Thief",
+            "type": "dark",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky-hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Toxic",
+            "type": "poison",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Badly poisons the target.  Never misses when used by a poison-type Pokémon."
+          },
+          {
+            "name": "Water gun",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Water pulse",
+            "type": "water",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+          },
+          {
+            "name": "Whirlpool",
+            "type": "water",
+            "class": "",
+            "power": "35",
+            "accuracy": "85%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "X scissor",
+            "type": "bug",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Iron defense",
+            "type": "steel",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Defense by two stages."
+          },
+          {
+            "name": "Superpower",
+            "type": "fighting",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage, then lowers the user's Attack and Defense by one stage each."
+          },
+          {
+            "name": "Agility",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Speed by two stages."
+          },
+          {
+            "name": "Amnesia",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Special Defense by two stages."
+          },
+          {
+            "name": "Ancientpower",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage. Has a 10% chance to raise all of the user's stats one stage."
+          },
+          {
+            "name": "Chip away",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion."
+          },
+          {
+            "name": "Dig",
+            "type": "ground",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Flail",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n"
+          },
+          {
+            "name": "Haze",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear-body or white-smoke."
+          },
+          {
+            "name": "Knock off",
+            "type": "dark",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky-hold, it will take damage but not lose its item."
+          },
+          {
+            "name": "Slam",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "75%",
+            "pp": "20",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Tickle",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Attack and Defense by one stage."
+          }
+        ],
+        "machine": [
+          {
+            "name": "Mud sport",
+            "type": "ground",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends."
+          },
+          {
+            "name": "Bubble",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Leer",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Lowers the target's Defense by one stage."
+          },
+          {
+            "name": "Vicegrip",
+            "type": "normal",
+            "class": "",
+            "power": "55",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Metal claw",
+            "type": "steel",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "35",
+            "description": "Inflicts regular damage. Has a 10% chance to raise the user's Attack one stage."
+          },
+          {
+            "name": "Mud shot",
+            "type": "ground",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Guillotine",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "30%",
+            "pp": "5",
+            "description": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock-on, mind-reader, and no-guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect."
+          },
+          {
+            "name": "Stomp",
+            "type": "normal",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field."
+          },
+          {
+            "name": "Protect",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nlock-on, mind-reader, and no-guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn-drill, and sheer-cold); those are always blocked by this move.\n\nthunder during rain-dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom-desire and future-sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish-song\n* shadow-force\n* Moves that merely copy the user, such as transform or psych-up\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Crabhammer",
+            "type": "water",
+            "class": "",
+            "power": "100",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+          },
+          {
+            "name": "Brine",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power."
+          },
+          {
+            "name": "Harden",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Defense by one stage."
+          },
+          {
+            "name": "Attract",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends."
+          },
+          {
+            "name": "Bide",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Blizzard",
+            "type": "ice",
+            "class": "",
+            "power": "110",
+            "accuracy": "70%",
+            "pp": "5",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+          },
+          {
+            "name": "Body slam",
+            "type": "normal",
+            "class": "",
+            "power": "85",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+          },
+          {
+            "name": "Brick break",
+            "type": "fighting",
+            "class": "",
+            "power": "75",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Destroys any light-screen or reflect on the target's side of the field, then inflicts regular damage.  The barriers are destroyed even if this move has no effect."
+          },
+          {
+            "name": "Bubblebeam",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Captivate",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail."
+          },
+          {
+            "name": "Curse",
+            "type": "ghost",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton-pass.\n\nThis move cannot be copied by mirror-move."
+          },
+          {
+            "name": "Cut",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Dive",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Double edge",
+            "type": "normal",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Double team",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's evasion by one stage."
+          },
+          {
+            "name": "Endure",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Facade",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+          },
+          {
+            "name": "False swipe",
+            "type": "normal",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "40",
+            "description": "Inflicts regular damage.  Will not reduce the target's HP below 1."
+          },
+          {
+            "name": "Fling",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky-hold.\n\nIf the user is under the effect of embargo, this move will fail."
+          },
+          {
+            "name": "Frustration",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Fury cutter",
+            "type": "bug",
+            "class": "",
+            "power": "40",
+            "accuracy": "95%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets."
+          },
+          {
+            "name": "Hail",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy-rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow-cloak are exempt from this effect's damage."
+          },
+          {
+            "name": "Hidden power",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's IV.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IV.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+          },
+          {
+            "name": "Hone claws",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Attack and accuracy by one stage."
+          },
+          {
+            "name": "Ice beam",
+            "type": "ice",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+          },
+          {
+            "name": "Icy wind",
+            "type": "ice",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Mimic",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror-move, nor selected by assist or metronome, nor forced by encore."
+          },
+          {
+            "name": "Mud slap",
+            "type": "ground",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+          },
+          {
+            "name": "Natural gift",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+          },
+          {
+            "name": "Rage",
+            "type": "normal",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+          },
+          {
+            "name": "Rain dance",
+            "type": "water",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "5",
+            "description": "Changes the weather to rain for five turns, during which water moves inflict 50% extra damage, and fire moves inflict half damage.\n\nIf the user is holding damp-rock, this effect lasts for eight turns.\n\nthunder has 100% accuracy.  If the target has used detect or protect, thunder has a (100 - accuracy)% chance to break through the protection.\n\nsolar-beam has half power.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with swift-swim have doubled original Speed.\n\nPokémon with forecast become water.\n\nPokémon with dry-skin heal 1/8 max HP, Pokémon with hydration are cured of major status effects-effects, and Pokémon with rain-dish heal 1/16 max HP at the end of each turn."
+          },
+          {
+            "name": "Rest",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect-effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early-bird.\n\nThis move fail if the Pokémon cannot fall asleep due to uproar, insomnia, or vital-spirit.  It also fails if the Pokémon is at full health or is already asleep."
+          },
+          {
+            "name": "Return",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Rock slide",
+            "type": "rock",
+            "class": "",
+            "power": "75",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Rock smash",
+            "type": "fighting",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Rock tomb",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Round",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual."
+          },
+          {
+            "name": "Scald",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to burn the target."
+          },
+          {
+            "name": "Secret power",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyze target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyze target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyze target\nNeon           | Paralyze target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+          },
+          {
+            "name": "Sleep talk",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Only usable if the user is sleep.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus-punch, me-first, metronome, mirror-move, shadow-force, skull-bash, sky-attack, sky-drop, sleep-talk, solar-beam, razor-wind, or uproar.\n\nIf the selected move requires a recharge turn—i.e., one of blast-burn, frenzy-plant, giga-impact, hydro-cannon, hyper-beam, roar-of-time, or rock-wrecker—and the user is still sleep next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror-move, nor selected by assist, metronome, or sleep-talk."
+          },
+          {
+            "name": "Snore",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Only usable if the user is sleep.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Strength",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Substitute",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effect-effects, confusion, and flinch.  The effects of smelling-salts and wake-up-slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect-effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap-berry.  magic-coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream-eater, embargo, flatter, gastro-acid, grudge, heal-block, leech-seed, lock-on, mean-look, mimic, mind-reader, nightmare, pain-split, psycho-shift, spider-web, sketch, swagger, switcheroo, trick, worry-seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt-absorb absorbing thunder-wave), such moves will not be blocked.\n\nlife-orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic-spikes.\n\nThe doll is passed on by baton-pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal."
+          },
+          {
+            "name": "Surf",
+            "type": "water",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "Swagger",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "15",
+            "description": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+          },
+          {
+            "name": "Swords dance",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Attack by two stages."
+          },
+          {
+            "name": "Take down",
+            "type": "normal",
+            "class": "",
+            "power": "90",
+            "accuracy": "85%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Thief",
+            "type": "dark",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky-hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Toxic",
+            "type": "poison",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Badly poisons the target.  Never misses when used by a poison-type Pokémon."
+          },
+          {
+            "name": "Water gun",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Water pulse",
+            "type": "water",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+          },
+          {
+            "name": "Whirlpool",
+            "type": "water",
+            "class": "",
+            "power": "35",
+            "accuracy": "85%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "X scissor",
+            "type": "bug",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Iron defense",
+            "type": "steel",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Defense by two stages."
+          },
+          {
+            "name": "Superpower",
+            "type": "fighting",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage, then lowers the user's Attack and Defense by one stage each."
+          },
+          {
+            "name": "Agility",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Speed by two stages."
+          },
+          {
+            "name": "Amnesia",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Special Defense by two stages."
+          },
+          {
+            "name": "Ancientpower",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage. Has a 10% chance to raise all of the user's stats one stage."
+          },
+          {
+            "name": "Chip away",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion."
+          },
+          {
+            "name": "Dig",
+            "type": "ground",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Flail",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n"
+          },
+          {
+            "name": "Haze",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear-body or white-smoke."
+          },
+          {
+            "name": "Knock off",
+            "type": "dark",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky-hold, it will take damage but not lose its item."
+          },
+          {
+            "name": "Slam",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "75%",
+            "pp": "20",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Tickle",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Attack and Defense by one stage."
+          }
+        ],
+        "tutor": [
+          {
+            "name": "Mud sport",
+            "type": "ground",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends."
+          },
+          {
+            "name": "Bubble",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Leer",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Lowers the target's Defense by one stage."
+          },
+          {
+            "name": "Vicegrip",
+            "type": "normal",
+            "class": "",
+            "power": "55",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Metal claw",
+            "type": "steel",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "35",
+            "description": "Inflicts regular damage. Has a 10% chance to raise the user's Attack one stage."
+          },
+          {
+            "name": "Mud shot",
+            "type": "ground",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Guillotine",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "30%",
+            "pp": "5",
+            "description": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock-on, mind-reader, and no-guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect."
+          },
+          {
+            "name": "Stomp",
+            "type": "normal",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field."
+          },
+          {
+            "name": "Protect",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nlock-on, mind-reader, and no-guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn-drill, and sheer-cold); those are always blocked by this move.\n\nthunder during rain-dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom-desire and future-sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish-song\n* shadow-force\n* Moves that merely copy the user, such as transform or psych-up\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Crabhammer",
+            "type": "water",
+            "class": "",
+            "power": "100",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+          },
+          {
+            "name": "Brine",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power."
+          },
+          {
+            "name": "Harden",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Defense by one stage."
+          },
+          {
+            "name": "Attract",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends."
+          },
+          {
+            "name": "Bide",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Blizzard",
+            "type": "ice",
+            "class": "",
+            "power": "110",
+            "accuracy": "70%",
+            "pp": "5",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+          },
+          {
+            "name": "Body slam",
+            "type": "normal",
+            "class": "",
+            "power": "85",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+          },
+          {
+            "name": "Brick break",
+            "type": "fighting",
+            "class": "",
+            "power": "75",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Destroys any light-screen or reflect on the target's side of the field, then inflicts regular damage.  The barriers are destroyed even if this move has no effect."
+          },
+          {
+            "name": "Bubblebeam",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Captivate",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail."
+          },
+          {
+            "name": "Curse",
+            "type": "ghost",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton-pass.\n\nThis move cannot be copied by mirror-move."
+          },
+          {
+            "name": "Cut",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Dive",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Double edge",
+            "type": "normal",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Double team",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's evasion by one stage."
+          },
+          {
+            "name": "Endure",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Facade",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+          },
+          {
+            "name": "False swipe",
+            "type": "normal",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "40",
+            "description": "Inflicts regular damage.  Will not reduce the target's HP below 1."
+          },
+          {
+            "name": "Fling",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky-hold.\n\nIf the user is under the effect of embargo, this move will fail."
+          },
+          {
+            "name": "Frustration",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Fury cutter",
+            "type": "bug",
+            "class": "",
+            "power": "40",
+            "accuracy": "95%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets."
+          },
+          {
+            "name": "Hail",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy-rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow-cloak are exempt from this effect's damage."
+          },
+          {
+            "name": "Hidden power",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's IV.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IV.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+          },
+          {
+            "name": "Hone claws",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Attack and accuracy by one stage."
+          },
+          {
+            "name": "Ice beam",
+            "type": "ice",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+          },
+          {
+            "name": "Icy wind",
+            "type": "ice",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Mimic",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror-move, nor selected by assist or metronome, nor forced by encore."
+          },
+          {
+            "name": "Mud slap",
+            "type": "ground",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+          },
+          {
+            "name": "Natural gift",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+          },
+          {
+            "name": "Rage",
+            "type": "normal",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+          },
+          {
+            "name": "Rain dance",
+            "type": "water",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "5",
+            "description": "Changes the weather to rain for five turns, during which water moves inflict 50% extra damage, and fire moves inflict half damage.\n\nIf the user is holding damp-rock, this effect lasts for eight turns.\n\nthunder has 100% accuracy.  If the target has used detect or protect, thunder has a (100 - accuracy)% chance to break through the protection.\n\nsolar-beam has half power.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with swift-swim have doubled original Speed.\n\nPokémon with forecast become water.\n\nPokémon with dry-skin heal 1/8 max HP, Pokémon with hydration are cured of major status effects-effects, and Pokémon with rain-dish heal 1/16 max HP at the end of each turn."
+          },
+          {
+            "name": "Rest",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect-effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early-bird.\n\nThis move fail if the Pokémon cannot fall asleep due to uproar, insomnia, or vital-spirit.  It also fails if the Pokémon is at full health or is already asleep."
+          },
+          {
+            "name": "Return",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Rock slide",
+            "type": "rock",
+            "class": "",
+            "power": "75",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Rock smash",
+            "type": "fighting",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Rock tomb",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Round",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual."
+          },
+          {
+            "name": "Scald",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to burn the target."
+          },
+          {
+            "name": "Secret power",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyze target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyze target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyze target\nNeon           | Paralyze target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+          },
+          {
+            "name": "Sleep talk",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Only usable if the user is sleep.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus-punch, me-first, metronome, mirror-move, shadow-force, skull-bash, sky-attack, sky-drop, sleep-talk, solar-beam, razor-wind, or uproar.\n\nIf the selected move requires a recharge turn—i.e., one of blast-burn, frenzy-plant, giga-impact, hydro-cannon, hyper-beam, roar-of-time, or rock-wrecker—and the user is still sleep next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror-move, nor selected by assist, metronome, or sleep-talk."
+          },
+          {
+            "name": "Snore",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Only usable if the user is sleep.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Strength",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Substitute",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effect-effects, confusion, and flinch.  The effects of smelling-salts and wake-up-slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect-effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap-berry.  magic-coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream-eater, embargo, flatter, gastro-acid, grudge, heal-block, leech-seed, lock-on, mean-look, mimic, mind-reader, nightmare, pain-split, psycho-shift, spider-web, sketch, swagger, switcheroo, trick, worry-seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt-absorb absorbing thunder-wave), such moves will not be blocked.\n\nlife-orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic-spikes.\n\nThe doll is passed on by baton-pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal."
+          },
+          {
+            "name": "Surf",
+            "type": "water",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "Swagger",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "15",
+            "description": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+          },
+          {
+            "name": "Swords dance",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Attack by two stages."
+          },
+          {
+            "name": "Take down",
+            "type": "normal",
+            "class": "",
+            "power": "90",
+            "accuracy": "85%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Thief",
+            "type": "dark",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky-hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Toxic",
+            "type": "poison",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Badly poisons the target.  Never misses when used by a poison-type Pokémon."
+          },
+          {
+            "name": "Water gun",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Water pulse",
+            "type": "water",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+          },
+          {
+            "name": "Whirlpool",
+            "type": "water",
+            "class": "",
+            "power": "35",
+            "accuracy": "85%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "X scissor",
+            "type": "bug",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Iron defense",
+            "type": "steel",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Defense by two stages."
+          },
+          {
+            "name": "Superpower",
+            "type": "fighting",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage, then lowers the user's Attack and Defense by one stage each."
+          },
+          {
+            "name": "Agility",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Speed by two stages."
+          },
+          {
+            "name": "Amnesia",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Special Defense by two stages."
+          },
+          {
+            "name": "Ancientpower",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage. Has a 10% chance to raise all of the user's stats one stage."
+          },
+          {
+            "name": "Chip away",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion."
+          },
+          {
+            "name": "Dig",
+            "type": "ground",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Flail",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n"
+          },
+          {
+            "name": "Haze",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear-body or white-smoke."
+          },
+          {
+            "name": "Knock off",
+            "type": "dark",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky-hold, it will take damage but not lose its item."
+          },
+          {
+            "name": "Slam",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "75%",
+            "pp": "20",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Tickle",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Attack and Defense by one stage."
+          }
+        ],
+        "egg": [
+          {
+            "name": "Mud sport",
+            "type": "ground",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends."
+          },
+          {
+            "name": "Bubble",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Leer",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Lowers the target's Defense by one stage."
+          },
+          {
+            "name": "Vicegrip",
+            "type": "normal",
+            "class": "",
+            "power": "55",
+            "accuracy": "100%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Metal claw",
+            "type": "steel",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "35",
+            "description": "Inflicts regular damage. Has a 10% chance to raise the user's Attack one stage."
+          },
+          {
+            "name": "Mud shot",
+            "type": "ground",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Guillotine",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "30%",
+            "pp": "5",
+            "description": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock-on, mind-reader, and no-guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect."
+          },
+          {
+            "name": "Stomp",
+            "type": "normal",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field."
+          },
+          {
+            "name": "Protect",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nlock-on, mind-reader, and no-guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn-drill, and sheer-cold); those are always blocked by this move.\n\nthunder during rain-dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom-desire and future-sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish-song\n* shadow-force\n* Moves that merely copy the user, such as transform or psych-up\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Crabhammer",
+            "type": "water",
+            "class": "",
+            "power": "100",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+          },
+          {
+            "name": "Brine",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power."
+          },
+          {
+            "name": "Harden",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Defense by one stage."
+          },
+          {
+            "name": "Attract",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends."
+          },
+          {
+            "name": "Bide",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Blizzard",
+            "type": "ice",
+            "class": "",
+            "power": "110",
+            "accuracy": "70%",
+            "pp": "5",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+          },
+          {
+            "name": "Body slam",
+            "type": "normal",
+            "class": "",
+            "power": "85",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+          },
+          {
+            "name": "Brick break",
+            "type": "fighting",
+            "class": "",
+            "power": "75",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Destroys any light-screen or reflect on the target's side of the field, then inflicts regular damage.  The barriers are destroyed even if this move has no effect."
+          },
+          {
+            "name": "Bubblebeam",
+            "type": "water",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Captivate",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail."
+          },
+          {
+            "name": "Curse",
+            "type": "ghost",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton-pass.\n\nThis move cannot be copied by mirror-move."
+          },
+          {
+            "name": "Cut",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "95%",
+            "pp": "30",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Dive",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Double edge",
+            "type": "normal",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Double team",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's evasion by one stage."
+          },
+          {
+            "name": "Endure",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick-guard, or wide-guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Facade",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+          },
+          {
+            "name": "False swipe",
+            "type": "normal",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "40",
+            "description": "Inflicts regular damage.  Will not reduce the target's HP below 1."
+          },
+          {
+            "name": "Fling",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky-hold.\n\nIf the user is under the effect of embargo, this move will fail."
+          },
+          {
+            "name": "Frustration",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Fury cutter",
+            "type": "bug",
+            "class": "",
+            "power": "40",
+            "accuracy": "95%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets."
+          },
+          {
+            "name": "Hail",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy-rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow-cloak are exempt from this effect's damage."
+          },
+          {
+            "name": "Hidden power",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's IV.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IV.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+          },
+          {
+            "name": "Hone claws",
+            "type": "dark",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Attack and accuracy by one stage."
+          },
+          {
+            "name": "Ice beam",
+            "type": "ice",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+          },
+          {
+            "name": "Icy wind",
+            "type": "ice",
+            "class": "",
+            "power": "55",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Mimic",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror-move, nor selected by assist or metronome, nor forced by encore."
+          },
+          {
+            "name": "Mud slap",
+            "type": "ground",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+          },
+          {
+            "name": "Natural gift",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+          },
+          {
+            "name": "Rage",
+            "type": "normal",
+            "class": "",
+            "power": "20",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+          },
+          {
+            "name": "Rain dance",
+            "type": "water",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "5",
+            "description": "Changes the weather to rain for five turns, during which water moves inflict 50% extra damage, and fire moves inflict half damage.\n\nIf the user is holding damp-rock, this effect lasts for eight turns.\n\nthunder has 100% accuracy.  If the target has used detect or protect, thunder has a (100 - accuracy)% chance to break through the protection.\n\nsolar-beam has half power.\n\nmoonlight, morning-sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with swift-swim have doubled original Speed.\n\nPokémon with forecast become water.\n\nPokémon with dry-skin heal 1/8 max HP, Pokémon with hydration are cured of major status effects-effects, and Pokémon with rain-dish heal 1/16 max HP at the end of each turn."
+          },
+          {
+            "name": "Rest",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect-effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early-bird.\n\nThis move fail if the Pokémon cannot fall asleep due to uproar, insomnia, or vital-spirit.  It also fails if the Pokémon is at full health or is already asleep."
+          },
+          {
+            "name": "Return",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+          },
+          {
+            "name": "Rock slide",
+            "type": "rock",
+            "class": "",
+            "power": "75",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Rock smash",
+            "type": "fighting",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+          },
+          {
+            "name": "Rock tomb",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "95%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+          },
+          {
+            "name": "Round",
+            "type": "normal",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual."
+          },
+          {
+            "name": "Scald",
+            "type": "water",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Has a 30% chance to burn the target."
+          },
+          {
+            "name": "Secret power",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyze target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyze target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyze target\nNeon           | Paralyze target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+          },
+          {
+            "name": "Sleep talk",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Only usable if the user is sleep.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus-punch, me-first, metronome, mirror-move, shadow-force, skull-bash, sky-attack, sky-drop, sleep-talk, solar-beam, razor-wind, or uproar.\n\nIf the selected move requires a recharge turn—i.e., one of blast-burn, frenzy-plant, giga-impact, hydro-cannon, hyper-beam, roar-of-time, or rock-wrecker—and the user is still sleep next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror-move, nor selected by assist, metronome, or sleep-talk."
+          },
+          {
+            "name": "Snore",
+            "type": "normal",
+            "class": "",
+            "power": "50",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Only usable if the user is sleep.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+          },
+          {
+            "name": "Strength",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Substitute",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "10",
+            "description": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effect-effects, confusion, and flinch.  The effects of smelling-salts and wake-up-slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect-effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap-berry.  magic-coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream-eater, embargo, flatter, gastro-acid, grudge, heal-block, leech-seed, lock-on, mean-look, mimic, mind-reader, nightmare, pain-split, psycho-shift, spider-web, sketch, swagger, switcheroo, trick, worry-seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt-absorb absorbing thunder-wave), such moves will not be blocked.\n\nlife-orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic-spikes.\n\nThe doll is passed on by baton-pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal."
+          },
+          {
+            "name": "Surf",
+            "type": "water",
+            "class": "",
+            "power": "90",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "Swagger",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "15",
+            "description": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+          },
+          {
+            "name": "Swords dance",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Attack by two stages."
+          },
+          {
+            "name": "Take down",
+            "type": "normal",
+            "class": "",
+            "power": "90",
+            "accuracy": "85%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+          },
+          {
+            "name": "Thief",
+            "type": "dark",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky-hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+          },
+          {
+            "name": "Toxic",
+            "type": "poison",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "90%",
+            "pp": "10",
+            "description": "Badly poisons the target.  Never misses when used by a poison-type Pokémon."
+          },
+          {
+            "name": "Water gun",
+            "type": "water",
+            "class": "",
+            "power": "40",
+            "accuracy": "100%",
+            "pp": "25",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Water pulse",
+            "type": "water",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+          },
+          {
+            "name": "Whirlpool",
+            "type": "water",
+            "class": "",
+            "power": "35",
+            "accuracy": "85%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nIf the target is in the first turn of dive, this move will hit with double power."
+          },
+          {
+            "name": "X scissor",
+            "type": "bug",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Iron defense",
+            "type": "steel",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "15",
+            "description": "Raises the user's Defense by two stages."
+          },
+          {
+            "name": "Superpower",
+            "type": "fighting",
+            "class": "",
+            "power": "120",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage, then lowers the user's Attack and Defense by one stage each."
+          },
+          {
+            "name": "Agility",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Raises the user's Speed by two stages."
+          },
+          {
+            "name": "Amnesia",
+            "type": "psychic",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "20",
+            "description": "Raises the user's Special Defense by two stages."
+          },
+          {
+            "name": "Ancientpower",
+            "type": "rock",
+            "class": "",
+            "power": "60",
+            "accuracy": "100%",
+            "pp": "5",
+            "description": "Inflicts regular damage. Has a 10% chance to raise all of the user's stats one stage."
+          },
+          {
+            "name": "Chip away",
+            "type": "normal",
+            "class": "",
+            "power": "70",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion."
+          },
+          {
+            "name": "Dig",
+            "type": "ground",
+            "class": "",
+            "power": "80",
+            "accuracy": "100%",
+            "pp": "10",
+            "description": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock-on, mind-reader, or no-guard.\n\nThis move cannot be selected by sleep-talk."
+          },
+          {
+            "name": "Flail",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "15",
+            "description": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n"
+          },
+          {
+            "name": "Haze",
+            "type": "ice",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "N/A",
+            "pp": "30",
+            "description": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear-body or white-smoke."
+          },
+          {
+            "name": "Knock off",
+            "type": "dark",
+            "class": "",
+            "power": "65",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky-hold, it will take damage but not lose its item."
+          },
+          {
+            "name": "Slam",
+            "type": "normal",
+            "class": "",
+            "power": "80",
+            "accuracy": "75%",
+            "pp": "20",
+            "description": "Inflicts regular damage."
+          },
+          {
+            "name": "Tickle",
+            "type": "normal",
+            "class": "",
+            "power": "N/A",
+            "accuracy": "100%",
+            "pp": "20",
+            "description": "Lowers the target's Attack and Defense by one stage."
+          }
+        ]
+      }
+    }
+  ],
+  "Huy": [],
   "Ivy": [
     {
-      "no": 61,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/0061Poliwhirl.png/70px-0061Poliwhirl.png",
-      "name": "Poliwhirl",
-      "type": "Unknown",
+      "no": 45,
+      "image": "",
+      "name": "Vileplume",
+      "exp": 0,
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "sp_attack": 110,
+      "sp_defense": 90,
+      "speed": 50,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "poison"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.5085735236588415,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 2,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.7658959051070305",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 579,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/1/1a/0579Reuniclus.png/70px-0579Reuniclus.png",
-      "name": "Reuniclus",
-      "type": "Unknown",
+      "no": 65,
+      "image": "",
+      "name": "Alakazam",
+      "exp": 0,
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "sp_attack": 135,
+      "sp_defense": 95,
+      "speed": 120,
+      "total_evs": 0,
+      "type": [
+        "psychic"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.7549974699274327,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 3,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8431037703070332",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 336,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/0336Seviper.png/70px-0336Seviper.png",
-      "name": "Seviper",
-      "type": "Unknown",
+      "no": 107,
+      "image": "",
+      "name": "Hitmonchan",
+      "exp": 0,
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "sp_attack": 35,
+      "sp_defense": 110,
+      "speed": 76,
+      "total_evs": 0,
+      "type": [
+        "fighting"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.821598711873313,
-      "hp": 0,
-      "attack": 1,
-      "defense": 0,
-      "sp_attack": 1,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5154770662736247",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 140,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/0140Kabuto.png/70px-0140Kabuto.png",
-      "name": "Kabuto",
-      "type": "Unknown",
+      "no": 70,
+      "image": "",
+      "name": "Weepinbell",
+      "exp": 0,
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "poison"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.684037449427683,
-      "hp": 0,
-      "attack": 0,
-      "defense": 1,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 1
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.701488634036164",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 640,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/0640Virizion.png/70px-0640Virizion.png",
-      "name": "Virizion",
-      "type": "Unknown",
+      "no": 55,
+      "image": "",
+      "name": "Golduck",
+      "exp": 0,
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "sp_attack": 95,
+      "sp_defense": 80,
+      "speed": 85,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.6774828397245412,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 3,
-      "speed": 0,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8031006236074594",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 445,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/0445Garchomp.png/70px-0445Garchomp.png",
-      "name": "Garchomp",
-      "type": "Unknown",
+      "no": 42,
+      "image": "",
+      "name": "Golbat",
+      "exp": 0,
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 65,
+      "sp_defense": 75,
+      "speed": 90,
+      "total_evs": 0,
+      "type": [
+        "poison",
+        "flying"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.99151439953219,
-      "hp": 0,
-      "attack": 3,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 3
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5413683205940428",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 224,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/e/e4/0224Octillery.png/70px-0224Octillery.png",
-      "name": "Octillery",
-      "type": "Unknown",
+      "no": 24,
+      "image": "",
+      "name": "Arbok",
+      "exp": 0,
+      "hp": 60,
+      "attack": 85,
+      "defense": 69,
+      "sp_attack": 65,
+      "sp_defense": 79,
+      "speed": 80,
+      "total_evs": 0,
+      "type": [
+        "poison"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.506867627240259,
-      "hp": 0,
-      "attack": 1,
-      "defense": 0,
-      "sp_attack": 1,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.7022396601373853",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ],
   "Jack": [
     {
-      "no": 115,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/e/e5/0115Kangaskhan.png/70px-0115Kangaskhan.png",
-      "name": "Kangaskhan",
-      "type": "Unknown",
+      "no": 51,
+      "image": "",
+      "name": "Dugtrio",
+      "exp": 0,
+      "hp": 35,
+      "attack": 80,
+      "defense": 50,
+      "sp_attack": 50,
+      "sp_defense": 70,
+      "speed": 120,
+      "total_evs": 0,
+      "type": [
+        "ground"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.8680931186291907,
-      "hp": 2,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.763649454000066",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 931,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/0931Squawkabilly.png/70px-0931Squawkabilly.png",
-      "name": "Squawkabilly",
-      "type": "Unknown",
+      "no": 91,
+      "image": "",
+      "name": "Cloyster",
+      "exp": 0,
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 70,
+      "total_evs": 0,
+      "type": [
+        "ice",
+        "water"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.7196224838325203,
-      "hp": 0,
-      "attack": 1,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 1
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.5935262295227622",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 947,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/2/2f/0947Brambleghast.png/70px-0947Brambleghast.png",
-      "name": "Brambleghast",
-      "type": "Unknown",
+      "no": 70,
+      "image": "",
+      "name": "Weepinbell",
+      "exp": 0,
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 55,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "poison"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.6769092792901403,
-      "hp": 0,
-      "attack": 2,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 0,
-      "speed": 0,
-      "total_evs": 2
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.901108664690716",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     },
     {
-      "no": 824,
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/4/4f/0824Blipbug.png/70px-0824Blipbug.png",
-      "name": "Blipbug",
-      "type": "Unknown",
+      "no": 98,
+      "image": "",
+      "name": "Krabby",
+      "exp": 0,
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "sp_attack": 25,
+      "sp_defense": 25,
+      "speed": 50,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
       "level": 1,
-      "accumulated_exp": 0,
-      "ev": 0.9411309713059317,
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "sp_attack": 0,
-      "sp_defense": 1,
-      "speed": 0,
-      "total_evs": 1
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.9779306570412231",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 96,
+      "image": "",
+      "name": "Drowzee",
+      "exp": 0,
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "sp_attack": 43,
+      "sp_defense": 90,
+      "speed": 42,
+      "total_evs": 0,
+      "type": [
+        "psychic"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.585510042972217",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 117,
+      "image": "",
+      "name": "Seadra",
+      "exp": 0,
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "sp_attack": 95,
+      "sp_defense": 45,
+      "speed": 85,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8112176530546897",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 120,
+      "image": "",
+      "name": "Staryu",
+      "exp": 0,
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "sp_attack": 70,
+      "sp_defense": 55,
+      "speed": 85,
+      "total_evs": 0,
+      "type": [
+        "water"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8062719942981514",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 47,
+      "image": "",
+      "name": "Parasect",
+      "exp": 0,
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "sp_attack": 60,
+      "sp_defense": 80,
+      "speed": 30,
+      "total_evs": 0,
+      "type": [
+        "grass",
+        "bug"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8962426445892433",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
+    },
+    {
+      "no": 17,
+      "image": "",
+      "name": "Pidgeotto",
+      "exp": 0,
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 71,
+      "total_evs": 0,
+      "type": [
+        "flying",
+        "normal"
+      ],
+      "level": 1,
+      "height": "",
+      "weight": "",
+      "catch_rate": "",
+      "gender_ratio": "",
+      "egg_groups": null,
+      "hatch_steps": 0,
+      "abilities": null,
+      "evs": "0.8762964140998719",
+      "strengths": null,
+      "weaknesses": null,
+      "evolutions": null,
+      "moves": {
+        "natural": null,
+        "machine": null,
+        "tutor": null,
+        "egg": null
+      }
     }
   ]
 }

@@ -8,7 +8,6 @@ import (
 )
 
 var elementalMultiplier = map[string]float64{
-	// Define elemental multipliers for each type
 	"Normal": 1.0,
 	"Fire":   1.5,
 	"Water":  0.8,
@@ -17,34 +16,40 @@ var elementalMultiplier = map[string]float64{
 
 type BattleController struct {
 	BattleService *service.BattleService
+	Logs          []string
 }
 
 func NewBattleController() *BattleController {
 	return &BattleController{
 		BattleService: service.NewBattleService(),
+		Logs:          []string{},
 	}
 }
 
 func (bc *BattleController) StartBattle(player1, player2 *model.Player) *model.Player {
-	// Set active pokemons
+	bc.LogBattleStart(player1, player2)
+
 	player1.ActivePokemon = player1.Pokemons[0]
 	player2.ActivePokemon = player2.Pokemons[0]
 
-	// Determine who goes first based on speed
 	firstPlayer, secondPlayer := determineFirstPlayer(player1, player2)
+	bc.LogTurnOrder(firstPlayer, secondPlayer)
 
-	// Main battle loop
 	for {
-		// First player's turn
-		bc.performTurn(firstPlayer, secondPlayer)
-		if bc.isBattleOver(firstPlayer, secondPlayer) {
-			return firstPlayer
+		if firstPlayer.ActivePokemon != nil {
+			bc.performTurn(firstPlayer, secondPlayer)
+			if bc.isBattleOver(firstPlayer, secondPlayer) {
+				bc.LogBattleEnd(firstPlayer, secondPlayer)
+				return firstPlayer
+			}
 		}
 
-		// Second player's turn
-		bc.performTurn(secondPlayer, firstPlayer)
-		if bc.isBattleOver(secondPlayer, firstPlayer) {
-			return secondPlayer
+		if secondPlayer.ActivePokemon != nil {
+			bc.performTurn(secondPlayer, firstPlayer)
+			if bc.isBattleOver(secondPlayer, firstPlayer) {
+				bc.LogBattleEnd(secondPlayer, firstPlayer)
+				return secondPlayer
+			}
 		}
 	}
 }
@@ -55,7 +60,6 @@ func determineFirstPlayer(player1, player2 *model.Player) (firstPlayer, secondPl
 	} else if player2.ActivePokemon.Speed > player1.ActivePokemon.Speed {
 		return player2, player1
 	} else {
-		// If speeds are equal, randomly choose first player
 		if rand.Intn(2) == 0 {
 			return player1, player2
 		}
@@ -64,43 +68,48 @@ func determineFirstPlayer(player1, player2 *model.Player) (firstPlayer, secondPl
 }
 
 func (bc *BattleController) performTurn(attacker, defender *model.Player) {
-	// Switch pokemon if active pokemon fainted
 	if attacker.ActivePokemon.HP <= 0 {
 		attacker.ActivePokemon = bc.chooseActivePokemon(attacker)
-		return // End turn after switching
+		if attacker.ActivePokemon != nil {
+			bc.LogSwitch(attacker)
+		}
+		return
 	}
 
-	// Check for status conditions (e.g., Poison, Burn) and apply damage
-	// Implement forced switching mechanics if applicable
-	// Introduce surrender check
-
-	// Perform attack
 	bc.performAttack(attacker, defender)
+
+	if defender.ActivePokemon.HP <= 0 {
+		bc.LogFaint(defender)
+		if bc.isBattleOver(attacker, defender) {
+			return
+		}
+		defender.ActivePokemon = bc.chooseActivePokemon(defender)
+		if defender.ActivePokemon != nil {
+			bc.LogSwitch(defender)
+		}
+	}
 }
 
 func (bc *BattleController) performAttack(attacker, defender *model.Player) {
-	// Randomly choose between normal attack and special attack
 	isSpecialAttack := rand.Intn(2) == 0
-
 	var damage int
+	var attackType string
+
 	if isSpecialAttack {
 		damage = calculateSpecialDamage(attacker.ActivePokemon, defender.ActivePokemon)
+		attackType = "special attack"
 	} else {
 		damage = calculateNormalDamage(attacker.ActivePokemon, defender.ActivePokemon)
+		attackType = "normal attack"
 	}
 
-	// Ensure damage is positive
 	if damage < 0 {
 		damage = 0
 	}
 
-	// Apply damage to the defender's active pokemon
 	defender.ActivePokemon.HP -= damage
 
-	// Log the attack details
-	fmt.Printf("%s's %s attacks %s's %s for %d damage!\n",
-		attacker.Name, attacker.ActivePokemon.Name,
-		defender.Name, defender.ActivePokemon.Name, damage)
+	bc.LogAttack(attacker, defender, damage, attackType)
 }
 
 func calculateNormalDamage(attacker, defender *model.CapturedPokemon) int {
@@ -108,9 +117,15 @@ func calculateNormalDamage(attacker, defender *model.CapturedPokemon) int {
 }
 
 func calculateSpecialDamage(attacker, defender *model.CapturedPokemon) int {
-	// Apply elemental multiplier
-	elementalMultiplier := elementalMultiplier[attacker.Type]
-	damage := int(float64(attacker.SpAttack)*elementalMultiplier - float64(defender.SpDefense))
+	maxMultiplier := 1.0
+	for _, atkType := range attacker.Type {
+		if multiplier, exists := elementalMultiplier[atkType]; exists {
+			if multiplier > maxMultiplier {
+				maxMultiplier = multiplier
+			}
+		}
+	}
+	damage := int(float64(attacker.SpAttack)*maxMultiplier - float64(defender.SpDefense))
 	if damage < 0 {
 		damage = 0
 	}
@@ -118,34 +133,48 @@ func calculateSpecialDamage(attacker, defender *model.CapturedPokemon) int {
 }
 
 func (bc *BattleController) chooseActivePokemon(player *model.Player) *model.CapturedPokemon {
-	// Logic to choose the next active pokemon, for simplicity, let's choose the next available pokemon
 	for _, pokemon := range player.Pokemons {
 		if pokemon.HP > 0 {
 			return pokemon
 		}
 	}
-	// If all pokemons are fainted, return nil
 	return nil
 }
 
 func (bc *BattleController) isBattleOver(player, opponent *model.Player) bool {
-	// Check if all opponent's pokemons are fainted
 	for _, pokemon := range opponent.Pokemons {
 		if pokemon.HP > 0 {
-			return false // Battle is not over
+			return false
 		}
 	}
-
-	// Check if player has surrendered
-	if player.Surrendered {
-		return true // Battle is over
-	}
-
-	return true // All opponent's pokemons are fainted
+	return true
 }
 
-func (bc *BattleController) LogBattle(player1, player2, winner *model.Player) {
-	fmt.Printf("Battle between %s and %s\n", player1.Name, player2.Name)
-	fmt.Printf("Winner: %s\n", winner.Name)
-	// Add more detailed battle logging here
+func (bc *BattleController) LogBattleStart(player1, player2 *model.Player) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("Battle started between %s and %s", player1.Name, player2.Name))
+}
+
+func (bc *BattleController) LogTurnOrder(firstPlayer, secondPlayer *model.Player) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("%s's %s will go first", firstPlayer.Name, firstPlayer.ActivePokemon.Name))
+}
+
+func (bc *BattleController) LogSwitch(player *model.Player) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("%s switched to %s", player.Name, player.ActivePokemon.Name))
+}
+
+func (bc *BattleController) LogAttack(attacker, defender *model.Player, damage int, attackType string) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("%s's %s used a %s and dealt %d damage to %s's %s",
+		attacker.Name, attacker.ActivePokemon.Name, attackType, damage, defender.Name, defender.ActivePokemon.Name))
+}
+
+func (bc *BattleController) LogFaint(player *model.Player) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("%s's %s has fainted", player.Name, player.ActivePokemon.Name))
+}
+
+func (bc *BattleController) LogBattleEnd(winner, loser *model.Player) {
+	bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won against %s", winner.Name, loser.Name))
+	fmt.Println("Battle Log:")
+	for _, log := range bc.Logs {
+		fmt.Println(log)
+	}
 }

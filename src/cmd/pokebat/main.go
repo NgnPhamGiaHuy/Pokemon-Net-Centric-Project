@@ -9,14 +9,13 @@ import (
 	"path/filepath"
 	"pokecat_pokebat/controller"
 	"pokecat_pokebat/internal/model"
-	"pokecat_pokebat/internal/service"
 	"time"
 )
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	playerService := service.NewPlayerService()
+	//playerService := service.NewPlayerService()
 	battleController := controller.NewBattleController()
 
 	workingDir, err := os.Getwd()
@@ -25,7 +24,6 @@ func main() {
 		return
 	}
 
-	// Load player_pokemon_list.json and filter by condition
 	playerPokemonList, err := loadPlayerPokemonList(filepath.Join(workingDir, "data/player_pokemon_list.json"))
 	if err != nil {
 		fmt.Printf("Failed to load player pokemon list: %v\n", err)
@@ -37,7 +35,6 @@ func main() {
 		return
 	}
 
-	// Filter users who meet the condition to battle
 	var eligiblePlayers []*model.Player
 	for playerName, pokemons := range playerPokemonList {
 		if len(pokemons) >= 3 {
@@ -52,7 +49,6 @@ func main() {
 		return
 	}
 
-	// Choose two random eligible players for the battle
 	player1 := eligiblePlayers[rand.Intn(len(eligiblePlayers))]
 	var player2 *model.Player
 	for {
@@ -62,15 +58,10 @@ func main() {
 		}
 	}
 
-	// Choose pokemons for each player
 	player1.Pokemons = choosePokemon(player1.Name, player1.Pokemons)
 	player2.Pokemons = choosePokemon(player2.Name, player2.Pokemons)
 
-	// Start battle
-	winner := battleController.StartBattle(player1, player2)
-
-	// Log battle details
-	battleController.LogBattle(player1, player2, winner)
+	battleController.StartBattle(player1, player2)
 }
 
 func loadPlayerPokemonList(filePath string) (map[string][]*model.CapturedPokemon, error) {
@@ -90,19 +81,39 @@ func loadPlayerPokemonList(filePath string) (map[string][]*model.CapturedPokemon
 func choosePokemon(playerName string, pokemons []*model.CapturedPokemon) []*model.CapturedPokemon {
 	fmt.Printf("%s, choose your 3 Pokémon by entering the numbers (separated by space):\n", playerName)
 	for i, pokemon := range pokemons {
-		fmt.Printf("%d: %s\n", i+1, pokemon.Name)
+		fmt.Printf("%d: %s (HP: %d, Speed: %d)\n", i+1, pokemon.Name, pokemon.HP, pokemon.Speed)
 	}
 
 	var choices [3]int
 	for {
 		fmt.Print("Enter the numbers of your choices: ")
 		_, err := fmt.Scanf("%d %d %d", &choices[0], &choices[1], &choices[2])
-		if err != nil || choices[0] < 1 || choices[0] > len(pokemons) || choices[1] < 1 || choices[1] > len(pokemons) || choices[2] < 1 || choices[2] > len(pokemons) {
-			fmt.Println("Invalid choices. Please try again.")
-		} else {
+		if err == nil && isValidChoice(choices[:], len(pokemons)) {
 			break
 		}
+		fmt.Println("Invalid choice. Please enter again.")
 	}
 
-	return []*model.CapturedPokemon{pokemons[choices[0]-1], pokemons[choices[1]-1], pokemons[choices[2]-1]}
+	var selectedPokemons []*model.CapturedPokemon
+	for _, choice := range choices {
+		selectedPokemons = append(selectedPokemons, pokemons[choice-1])
+	}
+
+	fmt.Printf("%s has chosen:\n", playerName)
+	for _, pokemon := range selectedPokemons {
+		fmt.Printf("%s (HP: %d, Speed: %d)\n", pokemon.Name, pokemon.HP, pokemon.Speed)
+	}
+
+	return selectedPokemons
+}
+
+func isValidChoice(choices []int, max int) bool {
+	seen := make(map[int]bool)
+	for _, choice := range choices {
+		if choice < 1 || choice > max || seen[choice] {
+			return false
+		}
+		seen[choice] = true
+	}
+	return true
 }

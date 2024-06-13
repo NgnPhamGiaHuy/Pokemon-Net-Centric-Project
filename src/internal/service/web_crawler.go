@@ -9,16 +9,6 @@ import (
 	"strings"
 )
 
-func LoadPokedex(filename string) (*[]model.Pokemon, error) {
-	var pokedex []model.Pokemon
-	file, err := os.ReadFile(filename)
-	if err != nil {
-		return nil, err
-	}
-	err = json.Unmarshal(file, &pokedex)
-	return &pokedex, err
-}
-
 func ScrapePokedex() error {
 	pokedex := []model.Pokemon{}
 

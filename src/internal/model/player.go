@@ -9,6 +9,7 @@ type Player struct {
 	Name          string
 	Position      Position
 	Surrendered   bool
+	WorldID       int
 	Pokemons      []*CapturedPokemon
 	ActivePokemon *CapturedPokemon
 }

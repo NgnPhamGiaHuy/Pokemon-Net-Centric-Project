@@ -27,10 +27,10 @@ func (wc *WorldController) AddPlayer(player *model.Player) {
 
 func (wc *WorldController) SpawnPokemons(pokedexData []model.Pokemon, numPokemons int) {
 	if numPokemons <= 0 {
-		numPokemons = 50 // Default value
+		numPokemons = 50
 	}
 
-	ticker := time.NewTicker(1 * time.Minute)
+	ticker := time.NewTicker(1 * time.Second)
 	defer ticker.Stop()
 
 	for {
@@ -41,10 +41,9 @@ func (wc *WorldController) SpawnPokemons(pokedexData []model.Pokemon, numPokemon
 				pos := model.Position{X: rand.Intn(1000), Y: rand.Intn(1000)}
 				wc.WorldService.SpawnPokemon(pokemon, pos)
 
-				// Despawn the pokemon after 5 minutes if not captured
 				go func(pokemon *model.Pokemon, pos model.Position) {
 					time.Sleep(5 * time.Minute)
-					wc.DespawnPokemon(pos)
+					wc.WorldService.DespawnPokemon(pos)
 				}(pokemon, pos)
 			}
 		case <-wc.stop:
@@ -61,12 +60,31 @@ func (wc *WorldController) generateRandomPokemon(pokedexData []model.Pokemon) *m
 	ev := 0.5 + rand.Float64()*0.5
 
 	return &model.Pokemon{
-		No:       selectedPokemon.No,
-		Image:    selectedPokemon.Image,
-		Name:     selectedPokemon.Name,
-		Type:     selectedPokemon.Type,
-		Level:    level,
-		TotalEvs: int(ev),
+		No:          selectedPokemon.No,
+		Image:       selectedPokemon.Image,
+		Name:        selectedPokemon.Name,
+		Type:        selectedPokemon.Type,
+		Level:       level,
+		TotalEvs:    int(ev),
+		Exp:         selectedPokemon.Exp,
+		HP:          selectedPokemon.HP,
+		Attack:      selectedPokemon.Attack,
+		Defense:     selectedPokemon.Defense,
+		SpAttack:    selectedPokemon.SpAttack,
+		SpDefense:   selectedPokemon.SpDefense,
+		Speed:       selectedPokemon.Speed,
+		Height:      selectedPokemon.Height,
+		Weight:      selectedPokemon.Weight,
+		CatchRate:   selectedPokemon.CatchRate,
+		GenderRatio: selectedPokemon.GenderRatio,
+		EggGroups:   selectedPokemon.EggGroups,
+		HatchSteps:  selectedPokemon.HatchSteps,
+		Abilities:   selectedPokemon.Abilities,
+		EVs:         selectedPokemon.EVs,
+		Strengths:   selectedPokemon.Strengths,
+		Weaknesses:  selectedPokemon.Weaknesses,
+		Evolutions:  selectedPokemon.Evolutions,
+		Moves:       selectedPokemon.Moves,
 	}
 }
 
