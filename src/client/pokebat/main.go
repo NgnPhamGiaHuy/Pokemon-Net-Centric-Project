@@ -39,15 +39,25 @@ func login() {
 }
 
 func showMainMenu() {
-	var choice int
-	fmt.Println("1. Join PokeBat")
-	fmt.Print("Choose an option: ")
-	fmt.Scanln(&choice)
+	for {
+		var choice int
+		fmt.Println("1. Join PokeBat")
+		fmt.Println("2. Surrender")
+		fmt.Println("3. Exit")
+		fmt.Print("Choose an option: ")
+		fmt.Scanln(&choice)
 
-	if choice == 1 {
-		joinPokeBat()
-	} else {
-		fmt.Println("Invalid choice.")
+		switch choice {
+		case 1:
+			joinPokeBat()
+		case 2:
+			surrender()
+		case 3:
+			fmt.Println("Goodbye!")
+			return
+		default:
+			fmt.Println("Invalid choice.")
+		}
 	}
 }
 
@@ -120,6 +130,33 @@ func fetchPlayerPokemons(playerName string) []Pokemon {
 	} else {
 		fmt.Println("Failed to fetch player pokemons:", resp.Status)
 		return nil
+	}
+}
+
+func surrender() {
+	data := map[string]string{"player": playerName}
+	jsonData, _ := json.Marshal(data)
+
+	resp, err := http.Post("http://localhost:8080/surrender", "application/json", bytes.NewBuffer(jsonData))
+	if err != nil {
+		fmt.Println("Error surrendering:", err)
+		return
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode == http.StatusOK {
+		var result struct {
+			Winner string   `json:"winner"`
+			Logs   []string `json:"logs"`
+		}
+		json.NewDecoder(resp.Body).Decode(&result)
+		fmt.Printf("You surrendered! Winner: %s\n", result.Winner)
+		fmt.Println("Battle Log:")
+		for _, log := range result.Logs {
+			fmt.Println(log)
+		}
+	} else {
+		fmt.Println("Failed to surrender:", resp.Status)
 	}
 }
 

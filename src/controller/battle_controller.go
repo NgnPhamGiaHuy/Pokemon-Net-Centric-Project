@@ -10,12 +10,19 @@ import (
 )
 
 type BattleController struct {
-	Logs []string
+	Logs      []string
+	battleMap map[string]*BattleState
+}
+
+type BattleState struct {
+	Player1 *model.Player
+	Player2 *model.Player
 }
 
 func NewBattleController() *BattleController {
 	return &BattleController{
-		Logs: []string{},
+		Logs:      []string{},
+		battleMap: make(map[string]*BattleState),
 	}
 }
 
@@ -48,6 +55,9 @@ func (bc *BattleController) StartBattle(w http.ResponseWriter, r *http.Request, 
 		return
 	}
 
+	battleID := fmt.Sprintf("%s_vs_%s", player1.Name, player2.Name)
+	bc.battleMap[battleID] = &BattleState{Player1: player1, Player2: player2}
+
 	bc.LogBattleStart(player1, player2)
 
 	player1.ActivePokemon = player1.Pokemons[0]
@@ -72,6 +82,47 @@ func (bc *BattleController) StartBattle(w http.ResponseWriter, r *http.Request, 
 		Winner:           winner.Name,
 		Logs:             bc.Logs,
 		OpponentPokemons: opponentPokemons,
+	}
+	jsonResponse, _ := json.Marshal(response)
+	w.Write(jsonResponse)
+}
+
+func (bc *BattleController) Surrender(w http.ResponseWriter, r *http.Request) {
+	var request struct {
+		Player string `json:"player"`
+	}
+
+	err := json.NewDecoder(r.Body).Decode(&request)
+	if err != nil {
+		http.Error(w, "Invalid request", http.StatusBadRequest)
+		return
+	}
+
+	var winner *model.Player
+	for battleID, battle := range bc.battleMap {
+		if battle.Player1.Name == request.Player {
+			winner = battle.Player2
+			delete(bc.battleMap, battleID)
+			break
+		} else if battle.Player2.Name == request.Player {
+			winner = battle.Player1
+			delete(bc.battleMap, battleID)
+			break
+		}
+	}
+
+	if winner == nil {
+		http.Error(w, "Player not found in any active battle", http.StatusNotFound)
+		return
+	}
+
+	bc.LogBattleEnd(winner, nil, nil)
+	response := struct {
+		Winner string   `json:"winner"`
+		Logs   []string `json:"logs"`
+	}{
+		Winner: winner.Name,
+		Logs:   bc.Logs,
 	}
 	jsonResponse, _ := json.Marshal(response)
 	w.Write(jsonResponse)
@@ -130,28 +181,6 @@ func determineFirstPlayer(player1, player2 *model.Player) (firstPlayer, secondPl
 }
 
 func (bc *BattleController) performTurn(attacker, defender *model.Player) {
-	damage := bc.calculateDamage(attacker.ActivePokemon, defender.ActivePokemon)
-	bc.LogAttack(attacker, defender, damage, "normal attack")
-	defender.ActivePokemon.HP -= damage
-
-	if defender.ActivePokemon.HP <= 0 {
-		bc.LogFaint(defender)
-		defender.ActivePokemon = bc.chooseActivePokemon(defender)
-		if defender.ActivePokemon != nil {
-			bc.LogSwitch(defender)
-		}
-	}
-}
-
-func (bc *BattleController) calculateDamage(attacker, defender *model.CapturedPokemon) int {
-	damage := attacker.Attack - defender.Defense
-	if damage < 0 {
-		return 0
-	}
-	return damage
-}
-
-func (bc *BattleController) performAttack(attacker, defender *model.Player) {
 	isSpecialAttack := rand.Intn(2) == 0
 	var damage int
 	var attackType string
@@ -171,6 +200,14 @@ func (bc *BattleController) performAttack(attacker, defender *model.Player) {
 	defender.ActivePokemon.HP -= damage
 
 	bc.LogAttack(attacker, defender, damage, attackType)
+
+	if defender.ActivePokemon.HP <= 0 {
+		bc.LogFaint(defender)
+		defender.ActivePokemon = bc.chooseActivePokemon(defender)
+		if defender.ActivePokemon != nil {
+			bc.LogSwitch(defender)
+		}
+	}
 }
 
 func calculateNormalDamage(attacker, defender *model.CapturedPokemon) int {
@@ -238,10 +275,14 @@ func (bc *BattleController) LogFaint(player *model.Player) {
 
 func (bc *BattleController) LogBattleEnd(winner, player1, player2 *model.Player) {
 	var loserName string
-	if winner.Name == player1.Name {
-		loserName = player2.Name
+	if player1 != nil && player2 != nil {
+		if winner.Name == player1.Name {
+			loserName = player2.Name
+		} else {
+			loserName = player1.Name
+		}
+		bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won against %s", winner.Name, loserName))
 	} else {
-		loserName = player1.Name
+		bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won by surrender", winner.Name))
 	}
-	bc.Logs = append(bc.Logs, fmt.Sprintf("Battle ended. %s won against %s", winner.Name, loserName))
 }

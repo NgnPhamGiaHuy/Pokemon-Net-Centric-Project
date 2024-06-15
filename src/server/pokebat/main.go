@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/gorilla/mux"
 	"net/http"
 	"os"
 	"pokecat_pokebat/controller"
@@ -13,19 +14,24 @@ func main() {
 	playerService := service.NewPlayerService(playerPokemonDataFile)
 	battleController := controller.NewBattleController()
 
-	http.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
+	r := mux.NewRouter()
+
+	r.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
 		controller.LoginPlayer(w, r, playerService, playerPokemonDataFile)
-	})
-	http.HandleFunc("/start-battle", func(w http.ResponseWriter, r *http.Request) {
+	}).Methods("POST")
+	r.HandleFunc("/start-battle", func(w http.ResponseWriter, r *http.Request) {
 		battleController.StartBattle(w, r, playerService)
-	})
-	http.HandleFunc("/player-pokemons", func(w http.ResponseWriter, r *http.Request) {
+	}).Methods("POST")
+	r.HandleFunc("/player-pokemons", func(w http.ResponseWriter, r *http.Request) {
 		controller.GetPlayerPokemons(w, r, playerService)
-	})
+	}).Methods("GET")
+	r.HandleFunc("/surrender", func(w http.ResponseWriter, r *http.Request) {
+		battleController.Surrender(w, r)
+	}).Methods("POST")
 
 	port := "8080"
 	fmt.Printf("Server is running on port %s\n", port)
-	if err := http.ListenAndServe(":"+port, nil); err != nil {
+	if err := http.ListenAndServe(":"+port, r); err != nil {
 		fmt.Printf("Failed to start server: %v\n", err)
 		os.Exit(1)
 	}
